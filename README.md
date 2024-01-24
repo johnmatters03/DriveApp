@@ -38,6 +38,18 @@ git clone https://github.com/johnmatters03/DriveClone
   npm install
   ```
 
+## Running Locally
+Start Django server
+```
+python manage.py runserver
+```
+
+Start React app
+```
+cd ./my-drive-app
+npm start
+```
+
 ## Back-End (Django)
 
 The back-end is built using Django and Django REST framework.
