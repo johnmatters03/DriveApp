@@ -1,4 +1,4 @@
-# DriveClone
+# DriveApp
 
 This project is a web application that emulates basic functionalities of a cloud drive, allowing users to upload, store, view, and delete text files. It consists of a React front-end and a Django back-end.
 
