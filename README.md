@@ -2,10 +2,6 @@
 
 This project is a web application that emulates basic functionalities of a cloud drive, allowing users to upload, store, view, and delete text files. It consists of a React front-end and a Django back-end.
 
-## Getting Started
-
-These instructions will help you set up the project on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 - Node.js (v14.x or later)
@@ -13,14 +9,9 @@ These instructions will help you set up the project on your local machine for de
 - Django (3.x)
 - React (17.x)
 
-### Installing
+## Setup
 
-1. **Clone the repository:**
-```
-git clone https://github.com/johnmatters03/DriveClone
-```
-
-2. **Set up the Django back-end:**
+1. **Set up the Django back-end:**
 - Navigate to the Django project directory.
 - Install required packages:
   ```
@@ -31,7 +22,7 @@ git clone https://github.com/johnmatters03/DriveClone
   python manage.py migrate
   ```
 
-3. **Set up the React front-end:**
+2. **Set up the React front-end:**
 - Navigate to the React project directory.
 - Install dependencies:
   ```
@@ -89,15 +80,7 @@ The front-end is created with React and communicates with the Django back-end th
 
 ### Styling
 
-- CSS is used for styling components, with a separate `App.css` file providing a clean and modern look.
-
-### Error Handling
-
-- Error messages from the backend are caught and displayed to the user, enhancing the user experience and debugging process.
-
-## Deployment
-
-- The application can be deployed on platforms like Heroku for the backend and Netlify for the frontend.
+- CSS is used for styling components, refer to `App.css`
 
 ## Authors
 
